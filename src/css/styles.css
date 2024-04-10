@@ -5,6 +5,8 @@
   |============================
 */
 
+@import url('./reset.css');
+
 body {
   font-family: 'Inter Tight', sans-serif;
   color: #fbfbfb;
@@ -12,14 +14,12 @@ body {
 }
 
 .container {
-  max-width: 320px;
+  max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
 }
 
-@import url('./reset.css');
-
-@import url('./header.css');
+@import url('./header+menu.css');
 
 @import url('./hero.css');
 
