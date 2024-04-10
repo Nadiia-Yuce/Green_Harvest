@@ -9,7 +9,7 @@ p {
 }
 
 a {
-  color: currentColor;
+  color: inherit;
   text-decoration: none;
   font-style: normal;
 }
