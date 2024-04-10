@@ -30,3 +30,15 @@ img {
 button {
   cursor: pointer;
 }
+
+body {
+  font-family: 'Inter Tight', sans-serif;
+  color: #fbfbfb;
+  background-color: #7a3145;
+}
+
+.container {
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
