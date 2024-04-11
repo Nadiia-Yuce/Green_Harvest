@@ -1,8 +1,18 @@
 .header {
   background-color: blueviolet;
 }
+
 /* для кнопки закриття і відкриття меню */
 /* .icon {
   fill: transparent;
   stroke: red;
 } */
+.menu-close-icon{
+  fill: transparent;
+    stroke: red;
+    width: 32px;
+    height: 32px;
+}
+.menu-container {
+  background-color: blue;
+}
