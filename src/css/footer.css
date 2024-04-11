@@ -1,3 +1,107 @@
-.footer {
-  background-color: brown;
+
+
+.footer-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 20px;
+  
+  width: 375px;
+  height: 520px;
+background-color: #7a3145;;
+
+}
+.footer-box {
+  display: flex; 
+ 
+  flex-direction: column;
+  gap: 40px;
+  
+}
+
+
+.footer-wrap {
+ 
+  
+}
+.footer-logo {
+  fill: #fbfbfb;
+  
+  
+}
+.footer-svg {
+  margin-bottom: 14px;
+  
+}
+.footer-txt {
+font-family: "Inter Tight", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.28;
+color: #fbfbfb;
+}
+.footer-nav-box {
+  
+}
+.footer-navigation {
+  
+}
+.footer-navigation-box {
+
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footer-navigation-link {
+font-weight: 600;
+font-size: 28px;
+line-height: 1;
+letter-spacing: -0.01em;
+color: #fbfbfb;
+
+}
+
+
+.footer-address-wrap {
+
+
+}
+
+.footer-address {
+}
+.footer-address-box {
+display: flex;
+flex-direction: column;
+gap: 14px;
+width: 179px;
+}
+.footer-address-link {
+font-weight: 600;
+font-size: 14px;
+line-height: 1.28;
+letter-spacing: -0.01em;
+color: #fbfbfb;
+}
+.Privacy {
+  
+}
+.Privacy-box {
+  width: 335px;
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+}
+.Privacy-list {
+}
+.Privacy-text {
+font-weight: 500;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: -0.01em;
+color: rgba(251, 251, 251, 0.5);
+}
+.privat {
 }
