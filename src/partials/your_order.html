@@ -16,8 +16,10 @@
           will contact
           you !
         </p>
-        <input aria-label="User full name" class="form-input" name="user_name" type="text" placeholder="Full Name" />
-        <input aria-label="User email" class="form-input" name="email" type="email" placeholder="Email" />
+        <input aria-label="User full name" class="form-input" name="user_name" type="text" placeholder="Full Name"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" />
+        <input aria-label="User email" class="form-input" name="email" type="email" placeholder="Email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" />
         <textarea aria-label="User comment" class="form-comment" name="comment" placeholder="Comment"></textarea>
         <button class="form-button" type="submit">Send</button>
       </form>
@@ -40,13 +42,15 @@
         <p class="follow-us">Follow us on our social networks:</p>
         <ul class="follow-us-list">
           <li class="follow-us-item">
-            <a class="follow-us-link" href="" target="_blank">instagram<span>/</span></a>
+            <a class="follow-us-link" href="https://www.instagram.com/goitclub/"
+              target="_blank">instagram<span>/</span></a>
           </li>
           <li class="follow-us-item">
-            <a class="follow-us-link" href="" target="_blank">facebook<span>/</span></a>
+            <a class="follow-us-link" href="https://www.facebook.com/goITclub/"
+              target="_blank">facebook<span>/</span></a>
           </li>
           <li class="follow-us-item">
-            <a class="follow-us-link" href="" target="_blank">youtube</a>
+            <a class="follow-us-link" href="https://www.youtube.com/c/GoIT" target="_blank">youtube</a>
           </li>
         </ul>
       </div>

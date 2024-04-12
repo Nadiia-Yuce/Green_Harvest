@@ -61,6 +61,11 @@
   width: 100%;
   height: 46px;
   margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: #141414;
 }
 
 .form-input::placeholder{
@@ -69,6 +74,19 @@
   line-height: 1.3;
   letter-spacing: -0.02em;
   color: #141414;
+}
+
+.form-input:valid {
+  border-color: #3cbc81;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #7a3145;
+}
+
+.form-input:invalid{
+  border-color: #e74a3b;
 }
 
 .form-comment{
@@ -80,6 +98,16 @@
   overflow-y: auto;
   resize: none;
   margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: #141414;
+}
+
+.form-comment:focus {
+  outline: none;
+  border-color: #7a3145;
 }
 
 .form-comment::placeholder{
