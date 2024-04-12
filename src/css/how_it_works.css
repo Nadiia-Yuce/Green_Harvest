@@ -1,6 +1,10 @@
+.container {
+  padding: 0;
+}
+
 .works-cont-img {
   background-color: #7a3145;
-  padding: 40px 0;
+  padding: 40px 20px;
 }
 
 .works-image img {
@@ -33,7 +37,7 @@
 
 .works-content {
   background-color: #576f35;
-  padding: 80px 0;
+  padding: 80px 20px;
 }
 
 .visually-hidden {
@@ -131,11 +135,10 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 0 32px;
   }
 
   .works-cont-img {
-    padding: 100px 32px;
+    padding: 100px 64px;
   }
 
   .works-image {
@@ -144,7 +147,7 @@
   }
 
   .works-content {
-padding: 100px 127px;
+padding: 100px 159px;
   }
 
   .works-subtitle {
@@ -173,11 +176,11 @@ padding: 100px 127px;
   }
   .container {
     max-width: 1280px;
-    padding: 0 100px;
+    padding: 100px;
   }
 
   .works-cont-img {
-    padding: 100px 100px 100px 0;
+    padding: 100px;
   }
 
   .works-image {
@@ -186,6 +189,6 @@ padding: 100px 127px;
   }
 
   .works-content {
-    padding: 100px 0 160px 100px;
+    padding: 100px 100px 160px 100px;
   }
 }
