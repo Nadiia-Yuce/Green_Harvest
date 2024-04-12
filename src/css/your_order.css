@@ -3,7 +3,7 @@
   padding: 80px 0;
 }
 
-.order-header{
+.order-title{
   font-weight: 600;
   font-size: 48px;
   line-height: 1.05;
@@ -13,11 +13,11 @@
   margin-bottom: 29px;
 }
 
-.order-header span {
+.order-title span {
   color: rgba(251, 251, 251, 0.3);
 }
 
-.order-paragraph{
+.order-text{
   font-weight: 500;
   font-size: 14px;
   line-height: 1.3;
@@ -37,7 +37,7 @@
   margin-bottom: 20px;
 }
 
-.field-header{
+.form-title{
   font-weight: 600;
   font-size: 24px;
   line-height: 1.08333;
@@ -54,7 +54,7 @@
   color: #576f35;
 }
 
-.order-input{
+.form-input{
   border: 1px solid rgba(20, 20, 20, 0.2);
   border-radius: 30px;
   padding: 14px 0 14px 16px;
@@ -63,7 +63,7 @@
   margin-bottom: 15px;
 }
 
-.order-input::placeholder{
+.form-input::placeholder{
   font-weight: 500;
   font-size: 14px;
   line-height: 1.3;
@@ -71,7 +71,7 @@
   color: #141414;
 }
 
-.order-comment{
+.form-comment{
   border: 1px solid rgba(20, 20, 20, 0.2);
   border-radius: 15px;
   padding: 14px 16px;
@@ -82,7 +82,7 @@
   margin-bottom: 20px;
 }
 
-.order-comment::placeholder{
+.form-comment::placeholder{
   font-weight: 500;
   font-size: 14px;
   line-height: 1.3;
@@ -90,7 +90,7 @@
   color: #141414;
 }
 
-.order-button{
+.form-button{
   border-radius: 30px;
   padding: 16px 0;
   width: 100%;
