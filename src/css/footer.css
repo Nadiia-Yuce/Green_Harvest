@@ -14,7 +14,6 @@ background-color: #7a3145;;
 }
 .footer-box {
   display: flex; 
- 
   flex-direction: column;
   gap: 40px;
   
@@ -41,9 +40,9 @@ font-size: 14px;
 line-height: 1.28;
 color: #fbfbfb;
 }
-.footer-nav-box {
+
   
-}
+
 .footer-navigation {
   
 }
@@ -59,8 +58,15 @@ font-size: 28px;
 line-height: 1;
 letter-spacing: -0.01em;
 color: #fbfbfb;
-
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+.footer-navigation-link:hover,
+.footer-navigation-link:focus {
+  color:#576f35;
+}
+
 
 
 .footer-address-wrap {
@@ -82,11 +88,16 @@ font-size: 14px;
 line-height: 1.28;
 letter-spacing: -0.01em;
 color: #fbfbfb;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.Privacy {
-  
+
+
+.footer-address-link:hover,
+.footer-address-link:focus {
+  color:cyan;
 }
-.Privacy-box {
+
+.privacy {
   width: 335px;
   height: 16px;
   display: flex;
@@ -94,9 +105,11 @@ color: #fbfbfb;
   align-items: flex-end;
   
 }
-.Privacy-list {
+.privacy-box {
+  display: flex;
+  gap: 8px;
 }
-.Privacy-text {
+.privacy-text {
 font-weight: 500;
 font-size: 12px;
 line-height: 1.33;
