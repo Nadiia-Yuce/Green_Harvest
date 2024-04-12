@@ -15,7 +15,7 @@ letter-spacing: -0.01em;
 text-transform: uppercase;
 color: #fbfbfb;
 margin-bottom: 20px;
-width: 508px;
+width: 335px;
 
 }
 
@@ -27,7 +27,7 @@ width: 508px;
 .vegs-text {
   font-weight: 500;
 font-size: 14px;
-line-height: 1,3;
+line-height: 1,25%;
 color: #fbfbfb;
 margin-bottom: 40px;
 
@@ -61,7 +61,7 @@ align-items: left;
 .vegs-price {
   font-weight: 600;
   font-size: 14px;
-  line-height: 1,3;
+  line-height: 1,25%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #141414;
@@ -70,17 +70,16 @@ align-items: left;
 
 @media screen and (min-width: 768px) {
   .container {
-
     width: 768px;
     padding: 100px 32px;
     
-  
   }
 
   .vegs-title {
     font-size: 64px;
-    line-height: 1;
+    line-height: 100%;
     margin-bottom: 50px;
+    
   
   }
 
@@ -89,12 +88,10 @@ align-items: left;
     line-height: 125%;
     width: 626px;
     margin-bottom: 50px;
-    align-items: center;
    
   }
 
   .vegs-list {
-    
     gap: 20px 28px;
     justify-content: center;
   }
@@ -107,4 +104,21 @@ align-items: left;
     font-size: 32px;
   }
 
+}
+
+@media screen and (min-width: 1280px) {
+  .container{
+    width: 1280px;
+    padding: 100px;
+  } 
+  .vegs-title {
+    margin-bottom: 25px;
+  }
+  .vegs-list {
+    gap: 21px 28px;
+  }
+  .vegs-item {
+    padding: 32px;
+    width: calc((100% - 21*2)/3);
+  }
 }
