@@ -112,8 +112,6 @@
 @media screen and (min-width: 768px) {
   .footer-container {
     padding: 32px;
-   
-    
   }
 
   .footer-box {
@@ -171,6 +169,7 @@
     font-size: 18px;
     line-height: 1.11;
   }
+
   .privacy-text-copy {
     font-size: 18px;
     line-height: 1.11;
@@ -183,6 +182,7 @@
     max-width: 1280px;
     height: 391px;
   }
+
   .footer-nav-box {
     gap: 0;
     width: 513px;
@@ -190,10 +190,24 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .footer-nav-link:hover {
+    color: #d5bfc5;
+  }
+
+  .footer-address-link:hover {
+    color: #d5bfc5;
+  }
+
   .footer-box {
     min-width: 1080px;
   }
+
   .privacy {
     min-width: 1080px;
   }
+}
+
+.privacy-text:hover {
+  color: #d5bfc5;
 }
