@@ -104,12 +104,8 @@
     height: 258px;
   }
 
-  /* .rewiews-item:not(:nth-child(-n+2)) {
-      display: none;
-    } */
-
-  .rewiews-item:last-child {
-    display: none;
+  .rewiews-item:not(:nth-child(2n+1)) {
+    display: block;
   }
 
   .rewiews-name {
@@ -146,7 +142,7 @@
     gap: 25px;
   }
 
-  .rewiews-item {
+  .rewiews-item:not(:nth-child(3n+1)) {
     display: block;
   }
 }
