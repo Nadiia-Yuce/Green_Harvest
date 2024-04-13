@@ -15,7 +15,7 @@
 
 .works-image {
   border-radius: 30px;
-  width: 335px;
+  max-width: 335px;
   height: 450px;
   overflow: hidden;
   position: relative;
@@ -94,7 +94,7 @@
   color: rgba(20, 20, 20, 0.6);
   border-radius: 15px;
   padding: 12px 27px 12px 100px;
-  width: 335px;
+  max-width: 335px;
   height: 76px;
   background-color: #fbfbfb;
   counter-increment: number;
@@ -142,7 +142,7 @@
   }
 
   .works-image {
-    width: 640px;
+   max-width: 640px;
     height: 640px;
   }
 
@@ -166,7 +166,7 @@ padding: 100px 159px;
   .works-item {
     font-size: 16px;
     line-height: 1.25;
-    width: 450px;
+    min-width: 450px;
   }
 }
 
