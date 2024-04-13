@@ -112,11 +112,12 @@
 @media screen and (min-width: 768px) {
   .footer-container {
     padding: 32px;
-    max-width: 768px;
-    height: 479px;
+   
+    
   }
 
   .footer-box {
+    min-width: 704px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -159,6 +160,13 @@
     line-height: 1.11;
   }
 
+  .privacy {
+    min-width: 704px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
   .privacy-text {
     font-size: 18px;
     line-height: 1.11;
@@ -172,7 +180,7 @@
 @media screen and (min-width: 1280px) {
   .footer-container {
     padding: 50px 100px;
-    width: 1280px;
+    max-width: 1280px;
     height: 391px;
   }
   .footer-nav-box {
@@ -181,5 +189,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  .footer-box {
+    min-width: 1080px;
+  }
+  .privacy {
+    min-width: 1080px;
   }
 }
