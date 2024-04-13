@@ -29,7 +29,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  list-style-type: none;
 }
 
 .vegs-item {
@@ -59,30 +58,31 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     padding: 100px 32px;
   }
 
   .vegs-title {
     font-size: 64px;
-    line-height: 100%;
+    line-height: 1;
     margin-bottom: 50px;
+    width: 508px;
   }
 
   .vegs-text {
     font-size: 16px;
-    line-height: 125%;
-    width: 626px;
+    line-height: 1.25;
     margin-bottom: 50px;
+    width: 626px;
   }
 
   .vegs-list {
-    gap: 20px 28px;
+    gap: 28px 20px;
     justify-content: center;
   }
 
   .vegs-item {
-    width: calc((100% - 20) / 2);
+    width: calc((100% - 20px) / 2);
   }
   .vegs-subtitle {
     font-size: 32px;
@@ -91,17 +91,17 @@
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
+    max-width: 1280px;
     padding: 100px;
   }
   .vegs-title {
     margin-bottom: 25px;
   }
   .vegs-list {
-    gap: 21px 28px;
+    gap: 28px 21px;
   }
   .vegs-item {
     padding: 32px;
-    width: calc((100% - 21 * 2) / 3);
+    width: calc((100% - 2 * 21px) / 3);
   }
 }
