@@ -1,3 +1,31 @@
-.ad {
-  background-color: aqua;
+.ad-container{
+  background-color: #fbfbfb;
+ width: 375px;
+padding: 80px 10px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  
+}
+.ad-box {
+  width: 355px;
+}
+.ad-text {
+font-weight: 600;
+font-size: 48px;
+line-height: 1.041;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #141414;
+}
+
+.ad-border {
+  display: block;
+border-radius: 12px;
+width: 355px;
+height: 102px;
+background-color: #576f35;
+color: #fbfbfb;
 }
