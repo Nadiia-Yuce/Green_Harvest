@@ -7,6 +7,7 @@
 
 .header .container {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   height: 32px;
@@ -34,6 +35,12 @@
   padding: 12px;
   border: 1px solid rgba(251, 251, 251, 0.4);
   border-radius: 12px;
+  transition: border-width 10ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link:hover, .nav-link:focus{
+  border-width: 2px;
+  color: rgba(251, 251, 251, 0.5);
 }
 
 .shop-now {
