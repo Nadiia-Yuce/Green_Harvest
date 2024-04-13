@@ -40,7 +40,7 @@
 
 .nav-link:hover, .nav-link:focus{
   border-width: 2px;
-  color: rgba(251, 251, 251, 0.5);
+  color:  rgba(251, 251, 251, 0.5);
 }
 
 .shop-now {
@@ -71,8 +71,8 @@
 }
 
 .menu-icon {
-  width: 22px;
-  height: 16px;
+  width: 32px;
+  height: 32px;
 }
 
 @media screen and (min-width: 768px) {
@@ -97,8 +97,8 @@
   }
 
   .menu-icon {
-    width: 26.67px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
   }
 }
 
