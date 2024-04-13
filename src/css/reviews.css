@@ -10,7 +10,7 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #141414;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
 }
 
 .rewiews-title-accent {
@@ -22,7 +22,7 @@
   font-size: 14px;
   line-height: 1.28;
   color: #141414;
-  margin-bottom: 40px;
+  margin: 0 0 20px 0;
 }
 
 .rewiews-list {
@@ -81,14 +81,14 @@
     font-size: 64px;
     line-height: 1;
     margin-bottom: 25px;
-    margin-right: 151px;
+    width: 553px;
   }
 
   .rewiews-text {
     font-size: 16px;
     line-height: 1.25;
     margin-bottom: 50px;
-    margin-right: 151px;
+    width: 553px;
   }
 
   .rewiews-list {
@@ -124,14 +124,6 @@
   .rewiews-container {
     padding-top: 100px;
     padding-bottom: 100px;
-  }
-
-  .rewiews-title {
-    margin-right: 526px;
-  }
-
-  .rewiews-text {
-    margin-right: 526px;
   }
 
   .rewiews-list {
