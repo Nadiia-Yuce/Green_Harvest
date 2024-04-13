@@ -40,8 +40,8 @@
 .rewiews-item {
   border: 1px solid rgba(122, 49, 69, 0.3);
   border-radius: 24px;
-  padding: 20px 16px;
-  min-width: 335px;
+  padding: 20px 24px;
+  max-width: 335px;
   height: 238px;
 }
 
@@ -66,9 +66,6 @@
   text-align: center;
   color: rgba(4, 3, 6, 0.4);
 }
-
-
-
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -99,12 +96,11 @@
   }
 
   .rewiews-item {
-    padding: 20px 20px;
     width: 343px;
     height: 258px;
   }
 
-  .rewiews-item:not(:nth-child(2n+1)) {
+  .rewiews-item:not(:nth-child(2n + 1)) {
     display: block;
   }
 
@@ -142,7 +138,7 @@
     gap: 25px;
   }
 
-  .rewiews-item:not(:nth-child(3n+1)) {
+  .rewiews-item:not(:nth-child(3n + 1)) {
     display: block;
   }
 }
