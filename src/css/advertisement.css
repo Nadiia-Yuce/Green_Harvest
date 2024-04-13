@@ -26,6 +26,57 @@ color: #141414;
 border-radius: 12px;
 width: 355px;
 height: 102px;
+padding: 3px 10px;
 background-color: #576f35;
 color: #fbfbfb;
 }
+
+@media screen and (min-width: 768px) {
+  .ad-container {
+    padding: 100px 16px;
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .ad-box {
+    width: 736px;
+  }
+
+  .ad-border {
+    display: flex;
+    justify-content: baseline;
+    width: 736px;
+    padding: 8px 16px;
+  }
+  .ad-text {
+  
+font-size: 64px;
+line-height: 1.093;
+
+  }
+}
+@media screen and (min-width: 1280px) {
+
+.ad-container {
+  padding: 100px;
+  width: 1280px;
+  height: 440px;
+}
+
+.ad-box {
+  width: 1080px;
+  height: 240px;
+}
+.ad-border {
+width: 808px;
+height: 86px;
+padding: 0 13px;
+}
+.ad-text {
+font-size: 76px;
+line-height: 1.052;
+
+}
+}
+
