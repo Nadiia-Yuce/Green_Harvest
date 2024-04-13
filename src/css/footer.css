@@ -33,6 +33,12 @@
   color: #fbfbfb;
 }
 
+.nav-box {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .footer-navigation-box {
   display: flex;
   flex-direction: column;
