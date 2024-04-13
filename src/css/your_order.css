@@ -3,6 +3,12 @@
   padding: 80px 0;
 }
 
+.order-wrap {
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
 .order-title{
   font-weight: 600;
   font-size: 48px;
@@ -67,6 +73,7 @@
   line-height: 1.3;
   letter-spacing: -0.02em;
   color: #141414;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:placeholder-shown:valid{
@@ -108,6 +115,7 @@
   line-height: 1.3;
   letter-spacing: -0.02em;
   color: #141414;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-comment:focus {
@@ -136,6 +144,11 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-button:hover, .form-button:focus{
+  background-color: #4c612e;
 }
 
 .soc-wrap {
@@ -188,6 +201,11 @@
   line-height: 1.08333;
   letter-spacing: -0.01em;
   color: #fbfbfb;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.follow-us-link:hover, .follow-us-link:focus{
+  color: rgba(251, 251, 251, 0.5);
 }
 
 .follow-us-link span{
@@ -205,7 +223,15 @@
 
   .order{
     padding: 100px 0;
-    }
+  }
+
+  .order-wrap{
+    padding: 0 32px;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+  }
 
   .order-title{
     font-size: 64px;
@@ -300,6 +326,10 @@
     display: block;
   }
 
+  .order-wrap {
+    padding: 0 120px;
+    width: fit-content;
+  }
   .order-title {
     width: 751px;
   }
