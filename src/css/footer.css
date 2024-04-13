@@ -1,5 +1,5 @@
 .footer-section {
-background-color: #7a3145;
+  background-color: #7a3145;
 }
 
 .footer-container {
@@ -8,11 +8,9 @@ background-color: #7a3145;
   flex-direction: column;
   justify-content: space-between;
   padding: 40px 20px;
-  width: 375px;
   height: 520px;
-  background-color: #7a3145;
-  
 }
+
 .footer-box {
   display: flex;
   flex-direction: column;
@@ -28,11 +26,11 @@ background-color: #7a3145;
 .footer-logo {
   fill: #fbfbfb;
 }
+
 .footer-txt {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28;
-  width: 296px;
   color: #fbfbfb;
 }
 
@@ -111,35 +109,32 @@ background-color: #7a3145;
   color: rgba(251, 251, 251, 0.5);
 }
 
-
 @media screen and (min-width: 768px) {
-
   .footer-container {
-padding: 32px;
-width: 768px;
-height: 479px;
-
-
+    padding: 32px;
+    max-width: 768px;
+    height: 479px;
   }
+
   .footer-box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .footer-svg  {
+  .footer-svg {
     width: 194px;
     height: 18px;
   }
+
   .footer-wrap {
     width: 265px;
-height: 103px;
-
+    height: 103px;
   }
 
   .footer-txt {
-font-size: 16px;
-line-height: 1.25;
+    font-size: 16px;
+    line-height: 1.25;
   }
 
   .footer-navigation-box {
@@ -160,27 +155,25 @@ line-height: 1.25;
   }
 
   .footer-address-link {
-font-size: 18px;
-line-height: 1.11;
+    font-size: 18px;
+    line-height: 1.11;
   }
 
   .privacy-text {
-font-size: 18px;
-line-height: 1.11;
+    font-size: 18px;
+    line-height: 1.11;
   }
   .privacy-text-copy {
-  font-size: 18px;
-  line-height: 1.11;
+    font-size: 18px;
+    line-height: 1.11;
   }
 }
 
-
-@media screen and (min-width: 1280px)  {
-
+@media screen and (min-width: 1280px) {
   .footer-container {
-padding: 50px 100px;
-width: 1280px;
-height: 391px;
+    padding: 50px 100px;
+    width: 1280px;
+    height: 391px;
   }
   .footer-nav-box {
     gap: 0;
