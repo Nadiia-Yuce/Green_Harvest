@@ -1,5 +1,5 @@
 <section class="order">
-  <div class="container">
+  <div class="order-wrap">
     <h2 class="order-title">
       Fresh <span>Harvest</span> Box has got you covered
     </h2>
@@ -8,74 +8,52 @@
       anyone looking to eat healthier or support local farmers. Order your box
       today and start enjoying the best that nature has to offer!
     </p>
+  </div>
+  <div class="container">
     <div class="form-wrap">
       <form class="order-form">
-        <p class="form-title">
-          Ordering <span>from us</span> is quick and easy! Fill out
-          <span>the form</span> below and we will contact you !
+        <p class="form-title">Ordering <span class="purple">from us</span> is quick and easy! Fill out <span
+            class="green">the
+            form</span>
+          below and we
+          will contact
+          you !
         </p>
-        <input
-          aria-label="User full name"
-          class="form-input"
-          name="user_name"
-          type="text"
-          placeholder="Full Name"
-        />
-        <input
-          aria-label="User email"
-          class="form-input"
-          name="email"
-          type="email"
-          placeholder="Email"
-        />
-        <textarea
-          aria-label="User comment"
-          class="form-comment"
-          name="comment"
-          placeholder="Comment"
-        ></textarea>
+        <input autofocus="true" aria-label="User full name" class="form-input" name="user_name" type="text"
+          placeholder="Full Name" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" />
+        <input aria-label="User email" class="form-input" name="email" type="email" placeholder="Email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" />
+        <textarea aria-label="User comment" class="form-comment" name="comment" placeholder="Comment"></textarea>
         <button class="form-button" type="submit">Send</button>
       </form>
       <div class="soc-wrap">
         <picture class="lemon-squeeze">
-          <source
-            srcset="
-              ../img/order-section-img/order-desk@1x.jpg 1x,
-              ../img/order-section-img/order-desk@2x.jpg 2x
-            "
-            media="(min-width: 1280px)"
-          />
-          <source
-            srcset="
-              ../img/order-section-img/order-tab@1x.jpg 1x,
-              ../img/order-section-img/order-tab@2x.jpg 2x
-            "
-            media="(min-width: 768px)"
-          />
-          <source
-            srcset="
-              ../img/order-section-img/order-mob@1x.jpg 1x,
-              ../img/order-section-img/order-mob@2x.jpg 2x
-            "
-            media="(max-width: 767px)"
-          />
-          <img
-            src="../img/order-section-img/order-tab@1x.jpg"
-            width="528"
-            height="273"
-            alt="Lemon gets squeezed"
-          />
+          <source srcset="
+              ./img/order-section-img/order-desk@1x.jpg 1x,
+              ./img/order-section-img/order-desk@2x.jpg 2x
+            " media="(min-width: 1280px)" />
+          <source srcset="
+              ./img/order-section-img/order-tab@1x.jpg 1x,
+              ./img/order-section-img/order-tab@2x.jpg 2x
+            " media="(min-width: 768px)" />
+          <source srcset="
+              ./img/order-section-img/order-mob@1x.jpg 1x,
+              ./img/order-section-img/order-mob@2x.jpg 2x
+            " media="(max-width: 767px)" />
+          <img src="./img/order-section-img/order-tab@1x.jpg" width="528" height="273" alt="Lemon gets squeezed" />
         </picture>
         <p class="follow-us">Follow us on our social networks:</p>
         <ul class="follow-us-list">
           <li class="follow-us-item">
-            <a class="follow-us-link" href="" target="_blank">instagram /</a>
+            <a class="follow-us-link" href="https://www.instagram.com/goitclub/"
+              target="_blank">instagram<span>/</span></a>
           </li>
           <li class="follow-us-item">
-            <a class="follow-us-link" href="" target="_blank">facebook /</a>
+            <a class="follow-us-link" href="https://www.facebook.com/goITclub/"
+              target="_blank">facebook<span>/</span></a>
           </li>
           <li class="follow-us-item">
-            <a class="follow-us-link" href="" target="_blank">youtube</a>
+            <a class="follow-us-link" href="https://www.youtube.com/c/GoIT" target="_blank">youtube</a>
           </li>
         </ul>
       </div>
