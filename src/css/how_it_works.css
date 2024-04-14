@@ -2,6 +2,10 @@
   padding: 0;
 }
 
+.works {
+  background-color: #7a3145;
+}
+
 .works-cont-img {
   background-color: #7a3145;
   padding: 40px 20px;
