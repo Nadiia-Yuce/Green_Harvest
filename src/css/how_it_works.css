@@ -133,7 +133,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .works .container {
     max-width: 768px;
   }
 
@@ -142,12 +142,12 @@
   }
 
   .works-image {
-   max-width: 640px;
+    max-width: 640px;
     height: 640px;
   }
 
   .works-content {
-padding: 100px 159px;
+    padding: 100px 159px;
   }
 
   .works-subtitle {
@@ -174,7 +174,7 @@ padding: 100px 159px;
   .works-container {
     display: flex;
   }
-  .container {
+  .works .container {
     max-width: 1280px;
     padding: 100px;
   }
