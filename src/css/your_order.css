@@ -218,7 +218,6 @@
     padding: 0 32px;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .order {
@@ -239,14 +238,14 @@
     width: 640px;
   }
 
-  .form-wrap {
-    align-items: center;
-  }
-
   .order-form {
     padding: 50px 100px;
     width: 628px;
     margin-bottom: 25px;
+  }
+
+  .form-wrap{
+    padding: 0 38px;
   }
 
   .form-title {
@@ -328,6 +327,7 @@
   .form-wrap {
     flex-direction: row;
     justify-content: space-between;
+    padding: 0;
   }
 
   .order-form {
