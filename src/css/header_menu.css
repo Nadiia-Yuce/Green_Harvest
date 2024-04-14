@@ -1,18 +1,113 @@
 .header {
-  background-color: blueviolet;
+  background-color: hsl(85, 35%, 32%);
+  position: absolute;
+  width: 100%;
+  top: 20px;
 }
 
-/* для кнопки закриття і відкриття меню */
-/* .icon {
-  fill: transparent;
-  stroke: red;
-} */
-.menu-close-icon{
-  fill: transparent;
-    stroke: red;
-    width: 32px;
-    height: 32px;
+.header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.menu-container {
-  background-color: blue;
+
+.logo-img {
+  width: 168px;
+  height: 16px;
+  fill: #fbfbfb;
+}
+
+.nav-wrap {
+  display: none;
+}
+
+.menu-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.menu-icon {
+  width: 32px;
+  height: 32px;
+  fill: transparent;
+  stroke: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  header .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .header {
+    top: 32px;
+  }
+
+  .logo-img {
+    width: 194px;
+    height: 18px;
+  }
+
+  .menu-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header .container {
+    max-width: 1280px;
+    padding: 0 100px;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+
+  .nav-wrap {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 8px;
+  }
+
+  .nav-link {
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    padding: 12px;
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: rgba(251, 251, 251, 0.5);
+  }
+
+  .shop-now {
+    margin-left: 20px;
+    background: #7a3145;
+    border-radius: 30px;
+    padding: 16px 32px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .shop-now:hover,
+  .shop-now:focus {
+    background-color: #622133;
+  }
 }
