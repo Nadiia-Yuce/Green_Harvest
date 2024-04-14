@@ -58,7 +58,6 @@
   .ad-container {
     padding: 100px;
     max-width: 1280px;
-    /* height: 440px; */
   }
 
   .ad-box {
@@ -73,6 +72,7 @@
   }
 
   .ad-text {
+    min-width: 1080px;
     font-size: 76px;
     line-height: 1.052;
   }
