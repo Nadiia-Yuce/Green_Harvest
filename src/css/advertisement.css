@@ -1,15 +1,16 @@
 .ad-container {
   background-color: #fbfbfb;
   width: 100%;
-  padding: 80px 10px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   display: block;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  margin: 0 auto;
+
 }
 
 .ad-box {
   width: 100%;
+
 }
 
 .ad-text {
@@ -24,7 +25,7 @@
 .ad-border {
   display: block;
   border-radius: 12px;
-  width: 100%;
+  max-width: 355px;
   height: 102px;
   padding: 3px 10px;
   margin: 0 -10px;
@@ -34,18 +35,20 @@
 
 @media screen and (min-width: 768px) {
   .ad-container {
-    padding: 100px 16px;
+    padding: 100px 0 100px 0;
+    max-width: 768px ;
   }
 
   .ad-box {
-    max-width: 736px;
+    min-width: 768px;
+    padding: 0 32px;
   }
 
   .ad-border {
-    max-width: 736px;
+    min-width: 736px;
     height: 86px;
     padding: 8px 16px;
-    margin: 0 -16px;
+    margin: 0 -15px;
   }
 
   .ad-text {
@@ -56,23 +59,27 @@
 
 @media screen and (min-width: 1280px) {
   .ad-container {
-    padding: 100px;
+    padding: 100px 113px;
     max-width: 1280px;
+    margin: 0 auto;
   }
 
   .ad-box {
-    max-width: 1080px;
+    min-width: 1054px;
+    padding: 0;
+
+    
   }
 
   .ad-border {
     display: inline-block;
-    max-width: 808px;
+    min-width: 808px;
     padding: 0 0 0 13px;
     margin: 0 -13px;
   }
 
   .ad-text {
-    min-width: 1080px;
+    min-width: 1054px;
     font-size: 76px;
     line-height: 1.052;
   }
