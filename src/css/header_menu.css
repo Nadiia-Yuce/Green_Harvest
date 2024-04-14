@@ -1,6 +1,7 @@
 .header {
   background-color: hsl(85, 35%, 32%);
   width: 100%;
+  padding: 20px 0 48px 0;
 }
 
 .header .container {
@@ -128,7 +129,7 @@
   }
 
   .header {
-    top: 32px;
+    padding: 32px 0 189px 0;
   }
 
   .logo-img {
@@ -186,6 +187,7 @@
     background-color: transparent;
     position: absolute;
     top: 20px;
+    padding: 0;
   }
 
   .menu-btn {
