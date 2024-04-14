@@ -1,3 +1,136 @@
-.reviews {
-  background-color: aquamarine;
+.rewiews-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.rewiews-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+  margin: 0 0 20px 0;
+}
+
+.rewiews-title-accent {
+  color: #576f35;
+}
+
+.rewiews-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #141414;
+  margin: 0 0 20px 0;
+}
+
+.rewiews-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rewiews-item img {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 24px;
+}
+
+.rewiews-item {
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  border-radius: 24px;
+  padding: 20px 24px;
+  max-width: 335px;
+  height: 238px;
+}
+
+.rewiews-item:not(:first-child) {
+  display: none;
+}
+
+.rewiews-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  margin-bottom: 8px;
+}
+
+.rewiews-content {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .rewiews-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .rewiews-title {
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 25px;
+    width: 553px;
+  }
+
+  .rewiews-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+    width: 553px;
+  }
+
+  .rewiews-list {
+    gap: 18px;
+  }
+
+  .rewiews-item {
+    width: 343px;
+    height: 258px;
+  }
+
+  .rewiews-item:not(:nth-child(2n + 1)) {
+    display: block;
+  }
+
+  .rewiews-name {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+
+  .rewiews-content {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 100px;
+  }
+
+  .rewiews-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .rewiews-list {
+    gap: 25px;
+  }
+
+  .rewiews-item:not(:nth-child(3n + 1)) {
+    display: block;
+  }
 }
