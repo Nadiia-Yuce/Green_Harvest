@@ -131,7 +131,7 @@
   width: 100%;
   border: none;
   background-color: #576f35;
-  font-family: 'Inter Tight', sans-serif;
+  font-family: inherit;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.3;
