@@ -1,5 +1,5 @@
 .header {
-  background-color: hsl(85, 35%, 32%);
+  background-color: rgba(87, 111, 53, 0.8);
   position: fixed;
   padding: 20px 0;
   width: 100%;
@@ -132,7 +132,7 @@
   }
 
   .header {
-    padding: 32px 0;
+    padding: 20px 0;
   }
 
   .logo-img {
