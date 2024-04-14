@@ -1,3 +1,136 @@
 .reviews {
-  background-color: aquamarine;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.reviews-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+  margin: 0 0 20px 0;
+}
+
+.reviews-title-accent {
+  color: #576f35;
+}
+
+.reviews-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #141414;
+  margin: 0 0 20px 0;
+}
+
+.reviews-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews-item img {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 24px;
+}
+
+.reviews-item {
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  border-radius: 24px;
+  padding: 20px 24px;
+  max-width: 335px;
+  height: 238px;
+}
+
+.reviews-item:not(:first-child) {
+  display: none;
+}
+
+.reviews-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  margin-bottom: 8px;
+}
+
+.reviews-content {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+}
+@media screen and (min-width: 768px) {
+  .reviews .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .reviews {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .reviews-title {
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 25px;
+    width: 553px;
+  }
+
+  .reviews-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+    width: 553px;
+  }
+
+  .reviews-list {
+    gap: 18px;
+  }
+
+  .reviews-item {
+    width: 343px;
+    height: 258px;
+  }
+
+  .reviews-item:not(:nth-child(2n + 1)) {
+    display: block;
+  }
+
+  .reviews-name {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+
+  .reviews-content {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews .container {
+    max-width: 1280px;
+    padding: 0 100px;
+  }
+
+  .reviews-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .reviews-list {
+    gap: 25px;
+  }
+
+  .reviews-item:not(:nth-child(3n + 1)) {
+    display: block;
+  }
 }

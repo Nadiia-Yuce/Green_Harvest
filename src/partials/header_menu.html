@@ -1,48 +1,52 @@
 <header class="header">
-  <div class="container header-container">
-    <svg class="icon-logo" aria-label="mobile menu">
-      <use href="..//img/icons.svg#icon-logo"></use>
-    </svg>
-    <nav class="menu-nav">
-      <ul class="menu-nav-list">
-        <li class="menu-nav-item">
-          <a href="#how-it-works" class="link current">How It Works</a>
+  <div class="container">
+    <div class="logo-wrap">
+      <a class="logo-link" href="./index.html">
+        <svg class="logo-img">
+          <use href="./img/icons.svg#icon-logo"></use>
+        </svg>
+      </a>
+    </div>
+    <div class="nav-wrap">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a class="nav-link" href="#how-it-works">How It Works</a>
         </li>
-        <li class="menu-nav-item">
-          <a href="#vegetables" class="link">Vegetables</a>
+        <li class="nav-list-item">
+          <a class="nav-link" href="#vegetables">Vegetables</a>
         </li>
-        <li class="menu-nav-item">
-          <a href="#reviews" class="link">Reviews</a>
+        <li class="nav-list-item">
+          <a class="nav-link" href="#reviews">Reviews</a>
         </li>
       </ul>
-    </nav>
-    <button type="button" class="button">SHOP NOW</button>
-    <button class="open-menu-button">
-      <svg class="icon-burger" aria-label="mobile menu">
-        <use href="../img/icons.svg#icon-menu"></use>
+      <button class="shop-now" type="button">shop now</button>
+    </div>
+    <button class="menu-btn" type="button">
+      <svg class="menu-icon">
+        <use href="./img/icons.svg#icon-menu"></use>
       </svg>
     </button>
   </div>
 </header>
-<!-- mobile-menu -->
-<div class="menu-container">
-  <button class="menu-close-button">
-    <svg class="menu-close-icon" aria-label="icon close">
-      <use href="../img/icons.svg#icon-close"></use>
-    </svg>
-  </button>
-  <div class="link-menu">
-    <ul class="menu-list">
-      <li class="menu-item">
-        <a href="#how-it-Works" class="menu-link">How It Works</a>
+
+<div class="menu-backdrop">
+  <div class="mob-menu">
+    <button class="close-btn" type="button">
+      <svg class="close-icon">
+        <use href="./img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <ul class="mobile-list">
+      <li class="mobile-list-item">
+        <a class="mobile-list-link" href="#how-it-works">How It Works</a>
       </li>
-      <li class="menu-item">
-        <a href="#vegetables" class="menu-link">Vegetables</a>
+      <li class="mobile-list-item">
+        <a class="mobile-list-link" href="#vegetables">Vegetables</a>
       </li>
-      <li class="menu-item">
-        <a href="#reviews" class="menu-link">Reviews</a>
+      <li class="mobile-list-item">
+        <a class="mobile-list-link" href="#reviews">Reviews</a>
       </li>
     </ul>
+    <button class="shop-now-mob">shop now</button>
   </div>
-  <button type="button" class="menu-shop-button">SHOP NOW</button>
 </div>

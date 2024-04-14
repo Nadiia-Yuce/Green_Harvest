@@ -1,18 +1,236 @@
 .header {
-  background-color: blueviolet;
+  background-color: hsl(85, 35%, 32%);
+  position: absolute;
+  width: 100%;
+  top: 20px;
 }
 
-/* для кнопки закриття і відкриття меню */
-/* .icon {
-  fill: transparent;
-  stroke: red;
-} */
-.menu-close-icon{
-  fill: transparent;
-    stroke: red;
-    width: 32px;
-    height: 32px;
+.header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.menu-container {
-  background-color: blue;
+
+.logo-img {
+  width: 168px;
+  height: 16px;
+  fill: #fbfbfb;
+}
+
+.nav-wrap {
+  display: none;
+}
+
+.menu-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.menu-icon {
+  width: 32px;
+  height: 32px;
+  fill: transparent;
+  stroke: #fbfbfb;
+}
+
+.menu-backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.mob-menu {
+  width: 100%;
+  height: 100%;
+  background-color: #7a3145;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 240px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-list-link:active,
+.mobile-list-link:focus {
+  color: #7a3145;
+  background-color: #fbfbfb;
+}
+
+.mobile-list-link {
+  text-align: center;
+  display: block;
+  border: 1px solid rgba(251, 251, 251, 0.4);
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+}
+
+.shop-now-mob {
+  background-color: #fbfbfb;
+  border: none;
+  border-radius: 30px;
+  padding: 16px 41px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #7a3145;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.shop-now-mob:focus,
+.shop-now-mob:active {
+  color: rgba(122, 49, 69, 0.7);
+}
+
+.close-btn {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.close-icon {
+  stroke: #fbfbfb;
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  header .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .header {
+    top: 32px;
+  }
+
+  .logo-img {
+    width: 194px;
+    height: 18px;
+  }
+
+  .menu-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .menu-backdrop {
+    background-color: rgba(20, 20, 20, 0.4);
+  }
+
+  .mob-menu {
+    width: 351px;
+    margin-left: auto;
+  }
+
+  .mobile-list-link {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    padding: 12px;
+  }
+
+  .shop-now-mob {
+    padding: 16px 32px;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+    margin-bottom: 50px;
+  }
+
+  .close-btn {
+    top: 32px;
+    right: 32px;
+  }
+
+  .close-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header .container {
+    max-width: 1280px;
+    padding: 0 100px;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+
+  .nav-wrap {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 8px;
+  }
+
+  .nav-link {
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    padding: 12px;
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: rgba(251, 251, 251, 0.5);
+  }
+
+  .shop-now {
+    margin-left: 20px;
+    background: #7a3145;
+    border-radius: 30px;
+    padding: 16px 32px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .shop-now:hover,
+  .shop-now:focus {
+    background-color: #622133;
+  }
 }
