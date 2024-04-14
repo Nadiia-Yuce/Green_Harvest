@@ -1,5 +1,6 @@
 .hero {
   background-color: #576f35;
+  padding-top: 100px;
 }
 
 .hero-content {
@@ -48,6 +49,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero{
+    padding-top: 261px;
+  }
+
   .hero .container {
     max-width: 768px;
     padding: 0 32px;
