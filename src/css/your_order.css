@@ -3,7 +3,7 @@
   padding: 80px 0;
 }
 
-.order-title{
+.order-title {
   font-weight: 600;
   font-size: 48px;
   line-height: 1.05;
@@ -198,13 +198,13 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.follow-us-link:hover>span,
-.follow-us-link:focus>span {
+.follow-us-link:hover > span,
+.follow-us-link:focus > span {
   color: #fbfbfb;
 }
 
 .follow-us-link:hover a.follow-us-link,
-.follow-us-link:focus{
+.follow-us-link:focus {
   color: rgba(251, 251, 251, 0.5);
 }
 
@@ -224,7 +224,7 @@
     padding: 100px 0;
   }
 
-  .order-title{
+  .order-title {
     font-size: 64px;
     line-height: 1;
     margin-bottom: 25px;
@@ -244,8 +244,8 @@
     margin-bottom: 25px;
   }
 
-  .form-wrap{
-    padding: 0 38px;
+  .form-wrap {
+    margin: 0 auto;
   }
 
   .form-title {
@@ -316,7 +316,7 @@
     padding: 0 100px;
     display: block;
   }
-  
+
   .order-title {
     width: 751px;
   }
