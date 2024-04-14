@@ -1,7 +1,7 @@
 .header {
   background-color: rgba(87, 111, 53, 0.8);
   position: fixed;
-  padding: 20px 0;
+  padding: 15px 0;
   width: 100%;
   z-index: 2;
 }
