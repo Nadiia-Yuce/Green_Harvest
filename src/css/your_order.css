@@ -213,7 +213,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .order .container {
     max-width: 768px;
     padding: 0 32px;
     display: flex;
@@ -311,7 +311,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  .order .container {
     max-width: 1280px;
     padding: 0 100px;
     display: block;
