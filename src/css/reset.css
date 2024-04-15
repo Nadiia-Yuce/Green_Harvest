@@ -36,6 +36,11 @@ body {
   color: #fbfbfb;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 375px;
   padding: 0 20px;
