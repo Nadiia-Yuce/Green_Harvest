@@ -13,6 +13,12 @@
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 375px) {
+  .vegs-title {
+    font-size: 48px;
+  }
+}
+
 .vegs-title-accent {
   color: rgba(251, 251, 251, 0.3);
 }
@@ -72,9 +78,9 @@
     max-width: 768px;
     padding: 0 32px;
   }
-.vegs {
-  padding: 100px 0;
-}
+  .vegs {
+    padding: 100px 0;
+  }
   .vegs-title {
     font-size: 64px;
     line-height: 1;
