@@ -1,5 +1,6 @@
 .hero .container {
   padding: 0;
+  max-width: none;
 }
 
 .hero {
@@ -8,9 +9,10 @@
 
 .hero-content {
   padding: 100px 20px 40px 20px;
+  max-width: 335px;
 }
 
-.hero-title {
+.hero-title { 
   font-weight: 600;
   line-height: 1;
   font-size: 12vw;
@@ -18,6 +20,7 @@
   text-transform: uppercase;
   color: #fbfbfb;
   margin-bottom: 20px;
+  max-width: 335px;
 }
 
 @media screen and (min-width: 375px) {
@@ -31,6 +34,7 @@
   font-size: 14px;
   line-height: 1.28571;
   color: #fbfbfb;
+  max-width: 335px;
 }
 
 .hero-image {
@@ -42,7 +46,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
   min-height: 370px;
 }
 
@@ -63,16 +66,18 @@
 
   .hero-content {
     padding: 122px 32px 50px 32px;
+    max-width: 768px;
   }
 
   .hero-title {
     font-size: 76px;
     margin-bottom: 25px;
+    max-width: 704px;
   }
 
   .hero-text {
     font-size: 16px;
-    width: 603px;
+    max-width: 603px;
     margin-left: 0;
   }
 
@@ -98,12 +103,13 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  .hero .container {
     max-width: 1280px;
   }
 
   .hero-content {
     padding: 238px 28px 50px 100px;
+    min-width: 630px;
   }
 
   .hero-inner {
@@ -125,7 +131,7 @@
         rgba(20, 20, 20, 0.2)
       ),
       url(/img/images-hero/desk-hero-1x.jpg);
-    min-width: 650px;
+    max-width: 650px;
     min-height: 800px;
   }
 
@@ -136,7 +142,6 @@
           rgba(20, 20, 20, 0.2)
         ),
         url(/img/images-hero/desk-hero-2x.jpg);
-      max-width: 100%;
     }
   }
 }
