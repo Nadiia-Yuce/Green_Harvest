@@ -20,7 +20,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/Green_Harvest/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Green_Harvest/assets/index-4a40f85e.css">
+    <link rel="stylesheet" href="/Green_Harvest/assets/index-b177a2ad.css">
   </head>
   <body>
     <header class="header">
@@ -92,47 +92,43 @@
   </div>
 </section>
 
-      <section class="works" id="how-it-works">
+      <section class="works">
   <div class="container works-container">
     <div class="works-cont-img">
-      <div class="works-image">
-        <img
-          srcset="/Green_Harvest/assets/hiw-c6af50f0.jpg 1x, /Green_Harvest/assets/hiw-2x-83cf6e5b.jpg 2x"
-          src="/Green_Harvest/assets/hiw-c6af50f0.jpg"
-          alt="photo of women"
-          width="944"
-          height="640"
-        />
-      </div>
+        <div class="works-image">
+          <img srcset="/Green_Harvest/assets/hiw-c6af50f0.jpg 1x, /Green_Harvest/assets/hiw-2x-83cf6e5b.jpg 2x" src="/Green_Harvest/assets/hiw-c6af50f0.jpg" alt="photo of women" width="944" height="640" />
+        </div>
     </div>
     <div class="works-content">
-      <h2 class="visually-hidden">How it works</h2>
-      <h3 class="works-subtitle">
-        To order your
-        <span class="works-subtitle-accent">vegetable</span> basket, simply
-        follow these <span class="works-subtitle-accent">easy steps</span>
-      </h3>
-      <p class="works-discribe">
-        Our baskets are assembled with care and delivered straight to your
-        doorstep, so you can enjoy the taste of fresh fruit without ever leaving
-        your home.
-      </p>
-      <ol class="works-list">
-        <li class="works-item">
-          Just choose <span class="works-item-accent">the vegetable</span> you
-          want to order by clicking on the checkboxes
-          <span class="works-item-accent">next to it</span>.
-        </li>
-        <li class="works-item">
-          Click on <span class="works-item-accent">the basket</span> and fill
-          out the form.
-        </li>
-        <li class="works-item">
-          Sit back and relax! Your
-          <span class="works-item-accent">fresh vegetables</span> basket will be
-          delivered.
-        </li>
-      </ol>
+      <div class="works-content-text">
+        <h2 class="visually-hidden">How it works</h2>
+        <h3 class="works-subtitle">
+          To order your
+          <span class="works-subtitle-accent">vegetable</span> basket, simply follow
+          these <span class="works-subtitle-accent">easy steps</span>
+        </h3>
+        <p class="works-discribe">
+          Our baskets are assembled with care and delivered straight to your
+          doorstep, so you can enjoy the taste of fresh fruit without ever leaving
+          your home.
+        </p>
+        <ol class="works-list">
+          <li class="works-item">
+            Just choose <span class="works-item-accent">the vegetable</span> you
+            want to order by clicking on the checkboxes
+            <span class="works-item-accent">next to it</span>.
+          </li>
+          <li class="works-item">
+            Click on <span class="works-item-accent">the basket</span> and fill out
+            the form.
+          </li>
+          <li class="works-item">
+            Sit back and relax! Your
+            <span class="works-item-accent">fresh vegetables</span> basket will be
+            delivered.
+          </li>
+        </ol>
+      </div>
     </div>
   </div>
 </section>
@@ -328,6 +324,7 @@
           name="user_name"
           type="text"
           placeholder="Full Name"
+          required
           pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
         />
         <input
@@ -336,6 +333,7 @@
           name="email"
           type="email"
           placeholder="Email"
+          required
           pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
         />
         <textarea
