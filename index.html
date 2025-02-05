@@ -20,11 +20,11 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/Green_Harvest/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Green_Harvest/assets/index-b177a2ad.css">
+    <link rel="stylesheet" href="/Green_Harvest/assets/index-fadb522c.css">
   </head>
   <body>
     <header class="header">
-  <div class="container">
+  <div class="container1">
     <div class="logo-wrap">
       <a class="logo-link" href="./index.html">
         <svg class="logo-img">
@@ -44,7 +44,7 @@
           <a class="nav-link" href="#reviews">Reviews</a>
         </li>
       </ul>
-      <button class="shop-now" type="button" href="#order">shop now</button>
+      <a class="shop-now" href="#order">shop now</a>
     </div>
     <button class="menu-btn js-open-menu" type="button">
       <svg class="menu-icon">
@@ -56,11 +56,6 @@
 <!-- mobile-menu -->
 <div class="menu-backdrop js-menu-container">
   <div class="mob-menu">
-    <button class="close-btn js-close-menu" type="button">
-      <svg class="close-icon">
-        <use href="/Green_Harvest/assets/icons-b1a5c3d2.svg#icon-close"></use>
-      </svg>
-    </button>
     <ul class="mobile-list">
       <li class="mobile-list-item">
         <a class="mobile-list-link" href="#how-it-works">How It Works</a>
@@ -72,7 +67,7 @@
         <a class="mobile-list-link" href="#reviews">Reviews</a>
       </li>
     </ul>
-    <button class="shop-now-mob" href="#order">shop now</button>
+    <a class="shop-now-mob" href="#order">shop now</a>
   </div>
 </div>
 
@@ -92,25 +87,31 @@
   </div>
 </section>
 
-      <section class="works">
+      <section class="works" id="how-it-works">
   <div class="container works-container">
     <div class="works-cont-img">
-        <div class="works-image">
-          <img srcset="/Green_Harvest/assets/hiw-c6af50f0.jpg 1x, /Green_Harvest/assets/hiw-2x-83cf6e5b.jpg 2x" src="/Green_Harvest/assets/hiw-c6af50f0.jpg" alt="photo of women" width="944" height="640" />
-        </div>
+      <div class="works-image">
+        <img
+          srcset="/Green_Harvest/assets/hiw-c6af50f0.jpg 1x, /Green_Harvest/assets/hiw-2x-83cf6e5b.jpg 2x"
+          src="/Green_Harvest/assets/hiw-c6af50f0.jpg"
+          alt="photo of women"
+          width="944"
+          height="640"
+        />
+      </div>
     </div>
     <div class="works-content">
       <div class="works-content-text">
         <h2 class="visually-hidden">How it works</h2>
         <h3 class="works-subtitle">
           To order your
-          <span class="works-subtitle-accent">vegetable</span> basket, simply follow
-          these <span class="works-subtitle-accent">easy steps</span>
+          <span class="works-subtitle-accent">vegetable</span> basket, simply
+          follow these <span class="works-subtitle-accent">easy steps</span>
         </h3>
         <p class="works-discribe">
           Our baskets are assembled with care and delivered straight to your
-          doorstep, so you can enjoy the taste of fresh fruit without ever leaving
-          your home.
+          doorstep, so you can enjoy the taste of fresh fruit without ever
+          leaving your home.
         </p>
         <ol class="works-list">
           <li class="works-item">
@@ -119,13 +120,13 @@
             <span class="works-item-accent">next to it</span>.
           </li>
           <li class="works-item">
-            Click on <span class="works-item-accent">the basket</span> and fill out
-            the form.
+            Click on <span class="works-item-accent">the basket</span> and fill
+            out the form.
           </li>
           <li class="works-item">
             Sit back and relax! Your
-            <span class="works-item-accent">fresh vegetables</span> basket will be
-            delivered.
+            <span class="works-item-accent">fresh vegetables</span> basket will
+            be delivered.
           </li>
         </ol>
       </div>
@@ -325,7 +326,6 @@
           type="text"
           placeholder="Full Name"
           required
-          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
         />
         <input
           aria-label="User email"
