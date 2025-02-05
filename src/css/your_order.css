@@ -70,10 +70,6 @@
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:placeholder-shown:valid {
-  border-color: rgba(20, 20, 20, 0.2);
-}
-
 .form-input::placeholder {
   font-weight: 500;
   font-size: 14px;
@@ -86,12 +82,13 @@
   border-color: #3cbc81;
 }
 
-.form-input:focus {
+.form-input:focus,
+.form-input:hover {
   outline: none;
   border-color: #7a3145;
 }
 
-.form-input:invalid {
+.form-input:not(:placeholder-shown):invalid {
   border-color: #e74a3b;
 }
 
@@ -112,7 +109,8 @@
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-comment:focus {
+.form-comment:focus,
+.form-comment:hover {
   outline: none;
   border-color: #7a3145;
 }
@@ -141,6 +139,7 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form-button:focus,
 .form-button:focus {
   background-color: #4c612e;
 }
